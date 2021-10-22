@@ -1,0 +1,50 @@
+.conteiner
+    {
+        .title
+        {
+        margin-top: 100px ;
+        margin-bottom: 100px;
+       font-family:'Roboto', sans-serif;
+       font-size: 48px;
+       text-align: center;
+       color:rgb(0, 0, 0);
+       font-weight: 400;
+        } 
+        .bottom_block
+    {
+        display:flex;
+        flex-direction: row;
+        
+        .bottom_block_blocks
+        {
+            margin-left: 140px;
+            padding-right: 150px;
+            img
+            {
+                
+                
+                width: 182px;
+                height: 125px;
+            
+            }
+            button
+            {
+                display:flex;
+                justify-content: center;
+            }
+            .btn
+                {
+                    text-align: center;
+                    font-size: 'Roboto',sans-serif;
+                    width: 182px;
+                    height: 30px;
+                    background-color:rgb(33,54,101);
+                    border:none;
+                    color:white;
+                    margin-bottom: 61px;
+                    padding-top:5px ;
+                    border-radius: 10px;
+                }
+        }
+    }
+    }
